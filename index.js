@@ -22,7 +22,7 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  if (katzDeliLine.length === 0) {
+  if (!katzDeliLine.length) {
     return "The line is currently empty."
   }
 // katzDeliLine = 0 means the amount of people should not go over 0
