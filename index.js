@@ -1,12 +1,14 @@
 //Take a number
   var katzDeliLine = [];
 var ticketnumber = 0
-
+console.log(ticketnumber)
 function takeANumber(katzDeliLine) {
-  katzDeliLine.push();
-  return(`You are number ${katzDeliLine.length} in line.`);
+  ticketnumber = 1
+  katzDeliLine.push(ticketnumber);
+  return(`You are number ${ticketnumber} in line.`);
 }
-
+takeANumber (katzDeliLine)
+console.log(ticketnumber)
 //function came from example usage replaced "" with name
 //${name} helps to know which name is being pulled
 //katzDeliLine.length know the amount of tickets being pulled
