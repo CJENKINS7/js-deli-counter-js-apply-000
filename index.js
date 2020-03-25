@@ -3,7 +3,7 @@
 var ticketnumber = 0
 console.log(ticketnumber)
 function takeANumber(katzDeliLine) {
-  ticketnumber = 1
+  ticketnumber += 1
   katzDeliLine.push(ticketnumber);
   return(`You are number ${ticketnumber} in line.`);
 }
