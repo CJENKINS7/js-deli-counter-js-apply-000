@@ -1,6 +1,6 @@
 //Take a number
   var katzDeliLine = [];
-var ticketnumber = [0]
+var ticketnumber = 0
 
 function takeANumber(katzDeliLine) {
   katzDeliLine.push();
