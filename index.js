@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
 // line should be empty
 
   for (let i = 0, i < katzDeliLine.length; i++) {
-      katzDeliLine.push(`${i + 1}. ${katzDeliLine[i]}`)
+      people.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
 
   return `The line is currently: ${people.join(', ')}`
