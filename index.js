@@ -28,8 +28,8 @@ function currentLine(katzDeliLine) {
 // katzDeliLine = 0 means the amount of people should not go over 0
 // line should be empty
 
-  for (let i = 0, l = katzDeliLine.length; i < l; i++) {
-      people.push(`${i + 1}. ${katzDeliLine[i]}`)
+  for (let i = 0, i < katzDeliLine.length; i++) {
+      katzDeliLine.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
 
   return `The line is currently: ${people.join(', ')}`
